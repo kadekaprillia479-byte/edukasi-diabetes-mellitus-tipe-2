@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Mellitus Tipe 2: Sadari dan Cegah!</title>
+    <style>
+        /* CSS untuk desain clean, feminin, dan soft pink */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #FFE4E1; /* Soft pink lembut */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            background-color: #FFB6C1;
+            width: 100%;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in;
+        }
+
+        header h1 {
+            font-family: 'Pacifico', cursive;
+            color: #FFFFFF;
+            margin: 0;
+        }
+
+        nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            animation: pulse 0.5s;
+        }
+
+        main {
+            max-width: 800px;
+            padding: 20px;
+            margin: 20px;
+            background-color: #FFFFFF;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 5px solid #FFB6C1;
+            background-color: #FFF5F5; /* Soft pink sangat lembut */
+        }
+
+        h2 {
+            color: #FFB6C1;
+            font-family: 'Pacifico', cursive;
+            animation: fadeIn 1s;
+        }
+
+        .ornamen-img {
+            border-radius: 10px;
+            margin: 10px 0;
+            animation: pulse 2s infinite;
+        }
+
+        .ornamen-list li {
+            margin: 10px 0;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #FFB6C1;
+            color: #FFFFFF;
+            list-style-type: none;
+            position: relative;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        .ornamen-list li::before {
+            content: '⭐ ';
+            color: #98FB98;
+        }
+
+        .kuis-pertanyaan {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px dashed #FFB6C1;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        .hasil-kuis {
+            font-weight: bold;
+            animation: pulse 1s;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #98FB98;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #FFB6C1;
+            animation: pulse 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        footer {
+            background-color: #FFB6C1;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            color: #FFFFFF;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                width: 90%;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diabetes Mellitus Tipe 2: Sadari dan Cegah!</h1>
+        <nav>
+            <a href="#pengantar">Pengantar</a> |
+            <a href="#pengertian">Pengertian</a> |
+            <a href="#gejala">Gejala</a> |
+            <a href="#pencegahan">Pencegahan</a> |
+            <a href="#kesadaran">Meningkatkan Kesadaran</a> |
+            <a href="#kuis">Kuis Seru</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="pengantar">
+            <h2>Selamat Datang, Remaja Hebat! Mari Mulai Petualangan Kesehatan 💖</h2>
+            <p>Halo, girls! Kamu tahu nggak, diabetes mellitus tipe 2 bisa menyerang siapa saja, termasuk remaja seperti kita? Tapi jangan khawatir, ini adalah kesempatan seru buat belajar dan jadi lebih kuat. Di halaman ini, kita akan jelajahi bersama tentang diabetes, dari pengertiannya hingga cara menghindarinya. Yuk, baca sambil bayangan kita lagi ngobrol bareng temen-temen, dan akhirnya kita bisa jadi pahlawan kesehatan sendiri! 🌟</p>
+            <img src="https://via.placeholder.com/300x200?text=Ilustrasi+Remaja+Sehat" alt="Ilustrasi Remaja Sehat" style="border-radius: 10px; margin-top: 10px;" class="ornamen-img">
+        </section>
+
+        <section id="pengertian">
+            <h2>Apa Itu Diabetes Mellitus Tipe 2? 🧐💖</h2>
+            <p>Diabetes mellitus tipe 2 adalah penyakit di mana tubuh kesulitan mengolah gula dari makanan, sehingga gula darah menjadi tinggi. Bayangin aja, tubuhmu seperti sebuah game level di mana gula adalah "musuh" yang bisa bikin game over kalau kebanyakan! 😂 Ini sering disebabkan oleh gaya hidup, seperti kurang olahraga atau makan makanan manis berlebih. Tapi, jangan sedih, karena dengan pengetahuan ini, kamu bisa jadi superhero yang mengalahkan diabetes!</p>
+            <p>Bagaimana diabetes bekerja? Tubuh memproduksi insulin untuk mengubah gula menjadi energi, tapi pada tipe 2, insulin ini seperti "tidak bekerja optimal" – mirip kayak baterai HP yang low dan perlu dicharge dengan olahraga dan makanan sehat. Fakta menarik: Remaja seperti kamu bisa terkena ini karena sering scroll media sosial sambil ngemil, tapi hei, itu bisa diubah menjadi hal seru! 🚀</p>
+            <p><strong>Mitos vs Fakta Lucu:</strong> Mitos: Diabetes cuma buat orang tua (fakta: Nggak, remaja juga bisa, tapi kamu bisa hindarin dengan dance challenge! 💃). Fakta: Kalau gula darah tinggi, kamu bisa merasa lelah seperti habis main game semalaman – yuk, lawan dengan minum air putih lebih banyak! 😴</p>
+            <p>Dampaknya kalau nggak dicegah? Bisa bikin kamu kurang aktif, tapi dengan tips ini, kamu bisa tetap fun dan sehat. Ingin tahu lebih? Coba liat ornamen lucu di bawah ini untuk motivasi ekstra! 🌈</p>
+            <ul class="ornamen-list">
+                <li>Penyebab utama: Kurang aktivitas fisik dan pola makan buruk – jangan biarkan gula jadi bosmu! 🍔</li>
+                <li>Bedanya dengan tipe 1: Ini bukan karena tubuh nggak produksi insulin, tapi insulinnya "malas" bekerja – seperti temen yang butuh ajakan buat olahraga! 🏃‍♀️</li>
+                <li>Kenapa penting: Bisa bikin lelah sehari-hari, tapi deteksi dini bikin hidup lebih asyik, seperti level up di game favoritmu! 🎮</li>
+                <li>Fakta seru: Diabetes tipe 2 bisa dicegah 80% dengan gaya hidup – kamu bisa jadi influencer kesehatan dengan share tips! 📱</li>
+                <li>Dampak: Kalau nggak dijaga, bisa bikin kulit kering atau mata kabur, tapi dengan pencegahan, kamu tetep glowing! ✨</li>
+            </ul>
+            <img src="https://via.placeholder.com/300x200?text=Ilustrasi+Diabetes+Lucu" alt="Ilustrasi Diabetes Lucu" style="border-radius: 10px;" class="ornamen-img">
+        </section>
+
+        <section id="gejala">
+            <h2>Gejala yang Perlu Kamu Waspadai 🚨</h2>
+            <p>Beberapa gejala diabetes tipe 2 termasuk sering haus, sering buang air kecil, lelah berlebih, dan luka yang lambat sembuh. Jika kamu merasakan ini, segera konsultasikan dengan dokter. Ingat, deteksi dini adalah kunci!</p>
+            <ul>
+                <li>Sering haus dan lapar</li>
+                <li>Berat badan turun tanpa alasan</li>
+                <li>Kulit kering atau gatal</li>
+                <li>Mata kabur</li>
+            </ul>
+        </section>
+
+        <section id="pencegahan">
+            <h2>Cara Pencegahan yang Seru dan Mudah 🌟</h2>
+            <p>Untuk cegah diabetes, yuk mulai dengan gaya hidup sehat. Ingat, mengurangi makanan manis adalah kunci utama! Misalnya, ganti minuman soda dengan infused water buah favoritmu. Berikut tips menarik:
+                <ol>
+                    <li>Makan makanan sehat, seperti buah dan sayur (coba buat smoothie rainbow! 🌈)</li>
+                    <li>Olahraga rutin, seperti dance challenge atau jalan kaki 30 menit sehari.</li>
+                    <li>Kurangi konsumsi makanan manis: Alih-alih permen, pilih buah segar. Tips: Buat tantangan "No Sweet Week" bareng teman!</li>
+                    <li>Rutin cek kesehatan dan catat makanan harianmu dalam app atau diary lucu.</li>
+                </ol>
+            </p>
+            <p>Ingat, pencegahan ini nggak cuma bikin sehat, tapi juga bikin kamu lebih percaya diri dan glowing! 💖</p>
+        </section>
+
+        <section id="kesadaran">
+            <h2>Cara Meningkatkan Kesadaran untuk Hindari Diabetes 🌍</h2>
+            <p>Yuk, kita jadi remaja yang sadar dan aktif! Meningkatkan kesadaran tentang diabetes tipe 2 berarti belajar bagaimana menghindarinya, terutama dengan mengurangi makanan manis. Bayangin, kalau kamu share tips ini ke teman, kita bisa bikin komunitas sehat bareng. Berikut cara seru untuk remaja:
+                <ul>
+                    <li>Bagikan info di media sosial: Posting foto kamu lagi olahraga dengan caption motivasi, seperti "Bye-bye gula, hello energy! 🚀"</li>
+                    <li>Buat tantangan bersama: Ajak teman untuk "Sugar-Free Challenge" selama seminggu, lalu bagikan hasilnya untuk fun dan dukungan.</li>
+                    <li>Edukasi diri dan orang lain: Baca artikel sehat, lalu diskusikan di kelas atau grup chat. Kenapa? Karena kesadaran bikin kita lebih kuat menghadapi godaan makanan manis.</li>
+                    <li>Tips harian: Ganti camilan manis dengan yang sehat, seperti yogurt buah, dan catat manfaatnya – rasakan energi lebih dan mood lebih baik! 😊</li>
+                </ul>
+            </p>
+            <p>Kamu adalah agen perubahan! Dengan kesadaran ini, kita bisa hindari diabetes dan hidup lebih bahagia. Let's glow up together! ✨</p>
+            <img src="https://via.placeholder.com/300x200?text=Ilustrasi+Kesadaran" alt="Ilustrasi Kesadaran" style="border-radius: 10px;" class="ornamen-img">
+        </section>
+
+        <section id="kuis">
+            <h2>Kuis Seru: Diabetes Challenge – Jawab 5 Level untuk Menang! 🎉</h2>
+            <p>Yuk, jawab 5 pertanyaan menantang tentang diabetes tipe 2 dan dapatkan badge keren! Seperti main game, setiap jawab benar bikin kamu level up. Siap jadi juara? 🚀</p>
+            <form id="kuisForm">
+                <div class="kuis-pertanyaan">
+                    <label>1. Apa itu diabetes mellitus tipe 2? (Pilih satu – Jawab benar untuk badge Level 1!)</label><br>
+                    <input type="radio" name="q1" value="benar"> Penyakit di mana tubuh kesulitan mengolah gula (Benar = Super! 🏆)<br>
+                    <input type="radio" name="q1" value="salah"> Penyakit kulit (Oops, coba lagi!)<br>
+                    <input type="radio" name="q1" value="salah"> Penyakit mata saja (Hehe, salah!)<br>
+                </div>
+                <div class="kuis-pertanyaan">
+                    <label>2. Gejala utama diabetes tipe 2 yang sering dialami remaja adalah... (Pilih satu – Level 2 unlocked!)</label><br>
+                    <input type="radio" name="q2" value="benar"> Sering haus dan lelah (Yes, level up! 💃)<br>
+                    <input type="radio" name="q2" value="salah"> Rambut tumbuh cepat (Lucu tapi salah!)<br>
+                    <input type="radio" name="q2" value="salah"> Gigi putih bersinar (Coba yang lain!)<br>
+                </div>
+                <div class="kuis-pertanyaan">
+                    <label>3. Cara terbaik mencegah diabetes tipe 2 adalah... (Pilih satu – Ambil poin Level 3!)</label><br>
+                    <input type="radio" name="q3" value="benar"> Makan sehat dan olahraga rutin (Benar banget! 🎮)<br>
+                    <input type="radio" name="q3" value="salah"> Hanya minum vitamin (Belum tepat!)<br>
+                    <input type="radio" name="q3" value="salah"> Makan manis setiap hari (Oh no, retry!)<br>
+                </div>
+                <div class="kuis-pertanyaan">
+                    <label>4. Bagaimana meningkatkan kesadaran tentang diabetes tipe 2? (Pilih satu – Level 4 here we go!)</label><br>
+                    <input type="radio" name="q4" value="benar"> Bagikan info di media sosial (Awesome, poin plus! 📱)<br>
+                    <input type="radio" name="q4" value="salah"> Tidak perlu dibagikan (Salah, yuk share!)<br>
+                    <input type="radio" name="q4" value="salah"> Hanya baca sendiri (Coba
